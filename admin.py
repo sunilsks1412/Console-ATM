@@ -34,7 +34,6 @@ def admin(at):
     if (us_name!=atm.admin_user or pas!=atm.admin_pass):
         print("Enter valid crdentials")
         print("\n")
-        admin()
         return 
     else:
         while True:
